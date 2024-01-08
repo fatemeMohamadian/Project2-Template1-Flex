@@ -1,0 +1,344 @@
+body {
+    background-color: rgb(233, 231, 233);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: black
+}
+
+nav>h3 {
+    color: white;
+    padding: 15px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+ul {
+    margin-top: -45px;
+    list-style-type: none;
+    direction: rtl;
+    display: flex;
+    /* padding: 10px; */
+}
+
+ul>li {
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    margin: -4px 2px;
+}
+
+ul>li>a,
+h3>a {
+    color: white;
+    text-decoration: none;
+}
+
+ul>li:hover {
+    background-color: rgba(155, 151, 151, 0.538);
+}
+
+.sec1 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+
+.sec1>figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1>figure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1>figure>h1 {
+    position: absolute;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 85px;
+    left: 755px;
+}
+
+.sec1>figure>.h1 {
+    position: absolute;
+    left: 600px;
+    background-color: rgba(0, 0, 0, 0.609);
+    border-radius: 4px;
+}
+
+.sec2 {
+    margin: 20px 10px;
+}
+
+.sec2>h3 {
+    margin: 10px 15px;
+    text-transform: uppercase;
+}
+
+.sec2>hr {
+    margin: 10px;
+}
+
+.sec3 {
+    margin: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(251, 123, 255); */
+    background-image: url(85.jpg);
+}
+
+.sec3>figure {
+    width: 300px;
+    height: 250px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid rgb(77, 0, 58); */
+    border-radius: 3px;
+    margin: 10px 10px;
+    transition: .4s;
+    cursor: pointer;
+    position: relative;
+}
+
+.sec3>figure:hover {
+    width: 380px;
+    height: 300px;
+}
+
+.sec3>figure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.sec3>figure>figcaption {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 250px;
+    font-size: 21px;
+    background-color: rgb(87, 0, 61);
+    /* border-radius: 2px; */
+    color: white;
+}
+
+.sec4 {
+    margin: 60px 10px;
+}
+
+.sec4>h3 {
+    margin: 10px 16px;
+    text-transform: uppercase;
+}
+
+.sec4>hr {
+    margin: 20px;
+}
+
+.sec4>p {
+    margin: 10px 15px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    text-transform: capitalize;
+    line-height: 26px;
+}
+
+.sec5 {
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec5>figure {
+    width: 300px;
+    height: 250px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.sec5>figure>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.sec5>figure>figcaption {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.442);
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: 1s;
+    bottom: -50px;
+}
+
+.sec5>figure:hover>img {
+    filter: blur(4px);
+}
+
+.sec5>figure:hover>figcaption {
+    bottom: 100px;
+}
+
+.sec6 {
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec6>div {
+    margin: -4px 10px;
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    position: relative;
+}
+
+.sec6>div>h3 {
+    margin: 1px 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.sec6>div>p {
+    margin: 12px 15px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    line-height: 26px;
+}
+
+.sec6>div>h4 {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* transition: .4s; */
+    cursor: pointer;
+}
+
+.sec6>div:hover>h4 {
+    background-color: rgba(123, 122, 122, 0.536);
+}
+
+.sec7 {
+    margin: 80px 10px;
+}
+
+.sec7>h3 {
+    margin: 10px 16px;
+    text-transform: uppercase;
+}
+
+.sec7>p {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 30px 20px;
+}
+
+.sec7>form {
+    margin: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec7>form>input {
+    width: 100%;
+    height: 35px;
+    margin: 10px 3px;
+}
+
+.sec7>form>button {
+    width: 160px;
+    height: 40px;
+    margin: 10px 3px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 18px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    color: white;
+}
+
+.sec7>form>button:hover {
+    background-color: rgba(98, 95, 95, 0.24);
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer>p {
+    color: white;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
