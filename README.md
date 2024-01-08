@@ -2,7 +2,7 @@
 
 **This Is a Simple Template With Flex!Thank You For Watching😊**
 
-![Shot 0027](https://github.com/fatemeMohamadian/project-trick-flex/assets/155579918/b5bfb6a8-037b-4b00-87aa-9a3031519cdc)
+![1](https://github.com/fatemeMohamadian/Project2-Template1-Flex/assets/155579918/1a990217-eea2-42f1-a9d1-0dc83daf084d)
 
  👩‍💻😎[Demo Project](https://fatememohamadian.github.io/Project2-Template1-Flex/)
 
